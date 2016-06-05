@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri;
+	margin: 0;
+}
+nav {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+	border: solid 2px black;
+	padding: 10px 15px;
+	font-size: 15px;
+}
+nav ul li:hover {
+	background-color: black;
+	color: orange;
+}
