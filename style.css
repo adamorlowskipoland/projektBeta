@@ -23,6 +23,9 @@ nav ul li:hover {
 	background-color: black;
 	color: orange;
 }
+nav ul li a {
+	text-decoration: none;
+}
 #konie {
 	height: 350px;
 	overflow: hidden;
