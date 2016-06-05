@@ -23,3 +23,63 @@ nav ul li:hover {
 	background-color: black;
 	color: orange;
 }
+#konie {
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	background-image: url(konie.jpg);
+	background-position: 50% 80%;
+	background-repeat: no-repeat;
+}
+h1 {
+	display: inline-block;
+	color: white;
+	background-color: black;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px 30px;
+}
+.i  {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	padding-top: 25px;
+}
+.i i {
+	font-size: 25px;
+}
+.kropka {
+	display: inline-block;
+	float: left;
+	width: 33.3%;
+	padding-top: 25px;
+}
+.kropka::before {
+	content: " ";
+	border: solid 3px red;
+	font-size: 1px;
+	margin-left: 32px;
+}
+.kropka p {
+	text-align: center;
+	margin: 0px 25px 30px;
+	font-size: 16px;
+}
+
+footer {
+	display: block;
+	clear: both;
+}
+footer div {
+	float: left;
+	width: 33.3%;
+	background-color: lightgrey;
+	padding: 10px 0;
+}
+
+
+
